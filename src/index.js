@@ -5,7 +5,7 @@ import "semantic-ui-css/semantic.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./Components/Auth/Login";
 import Register from "./Components/Auth/Register";
-
+import firebase from 'firebase/compat';
 const Root = () => (
   <Router>
     <Switch>
